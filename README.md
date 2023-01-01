@@ -2,9 +2,7 @@
 
 <div align="center">
 
-Screenshot coming soon
-
-Demo coming soon
+<img width="1183" alt="WeLoveMovies" src="https://user-images.githubusercontent.com/5871075/210160906-83ef1267-9b1d-47d7-918a-314d61ac6d87.png">
 
 </div>
 
