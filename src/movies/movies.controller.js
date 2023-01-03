@@ -21,7 +21,11 @@ async function movieExists(req, res, next){
 async function read(req, res, next){
     const { movie } = res.locals;
     res.json({ data: movie });
+}
 
+async function getMoviesPlayingInTheaters(req, res, next){
+    const data = await service.getMoviesPlayingInTheaters(req.params.movieId);
+    res.json({ data });
 }
 
 module.exports = {
